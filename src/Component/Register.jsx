@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import Checkbox from "./Checkbox";
-import "../styles/Register.css";
+import "./Register.css";
 
 const Register = ({
   userData,

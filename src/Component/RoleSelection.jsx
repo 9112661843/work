@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import "../styles/RoleSelection.css";
+import "./RoleSelection.css";
 
 const RoleSelection = ({ onRoleSelect }) => {
   const roles = [

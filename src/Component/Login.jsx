@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "./Button";
-import "../styles/Login.css";
+import "./Login.css";
 
 const Login = ({ onBackToRegister, onLogin }) => {
   const [form, setForm] = useState({ email: "", password: "" });
@@ -12,7 +12,8 @@ const Login = ({ onBackToRegister, onLogin }) => {
   };
 
   return (
-    <div className="login-container">
+    <div className="main">
+      <div className="login-container">
       <div className="logo">Artiqlate</div>
 
       <div className="login-warning">
@@ -63,6 +64,7 @@ const Login = ({ onBackToRegister, onLogin }) => {
           Back to registration
         </button>
       </div>
+    </div>
     </div>
   );
 };

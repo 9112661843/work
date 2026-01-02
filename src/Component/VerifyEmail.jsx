@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import "../styles/VerifyEmail.css";
+import "./VerifyEmail.css";
 
 const VerifyEmail = ({ email, onVerify, onResend }) => {
   return (
